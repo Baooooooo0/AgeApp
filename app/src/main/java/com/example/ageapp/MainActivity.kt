@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
                 else -> "Người già"
             }
 
-            Toast.makeText(this, "Họ tên: $name\nPhân loại: $message", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Họ tên: $name\nPhân loại: $message", Toast.LENGTH_LONG).show()
         }
     }
 }
